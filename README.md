@@ -1,7 +1,7 @@
 ---
 description: " If you do nothing, never be changed. "
 ---
-
+<img src="/image/mypicture.jpg" width="300" height="300">
 ##### 학력 :
 >  부산대학교 전자공학과 졸업 (2019.08)
 ><br>임베디드 SW 설계 연계전공
@@ -12,4 +12,4 @@ description: " If you do nothing, never be changed. "
 
 ##### 연락
 > E-mail : lllee.dh@gmail.com
-> Linked-In : 
+> Linked-In :
