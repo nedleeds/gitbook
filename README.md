@@ -4,7 +4,7 @@ description: 'If you do nothing, never be changed.'
 
 # About Me
 
-<img src="/image/emoji.png">
+![title](/image/emoji.png){: width="30%" height="30%"}
 
 
 ## 학력
