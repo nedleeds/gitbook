@@ -8,7 +8,7 @@ description: " If you do nothing, never be changed. "
 
 
 ##### 자격증
-> Deep Learning (from deeplearning Ai - coursera)<br>[specialization](https://www.coursera.org/account/accomplishments/specialization/EGHN8RSF74FF)
+> [Deep Learning](https://www.coursera.org/account/accomplishments/specialization/EGHN8RSF74FF)
 
 ##### 연락
 > E-mail : lllee.dh@gmail.com<br>
