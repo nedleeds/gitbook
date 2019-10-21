@@ -1,10 +1,10 @@
 * [About Me](README.md)
 * ALGORITHM
   * Programmers
-    * [1. empty](algorithm/programmers)
+    * [1. empty](ALGORITHM/Programmers/)
   * Samsung SW Academy
-    * [1.전기버스](algorithm/1.전기버스.md)
-    * [2.숫자카드](algorithm/2.숫자카드.md)
+    * [1.전기버스](ALGORITHM/Samsung SW Academy/1.전기버스.md)
+    * [2.숫자카드](ALGORITHM/Samsung SW Academy/2.숫자카드.md)
 * ML/DL
   * COURSERA
     * DeeplearningAi Learning
