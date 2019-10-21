@@ -1,4 +1,4 @@
-* [Study Note](README.md)
+* [about Me](README.md)
 * ALGORITHM
   * Programmers
     * [1. empty](algorithm/programmers)
