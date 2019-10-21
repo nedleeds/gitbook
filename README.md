@@ -11,5 +11,5 @@ description: " If you do nothing, never be changed. "
 > Deep Learning (from deeplearning Ai - coursera)<br>[specialization](https://www.coursera.org/account/accomplishments/specialization/EGHN8RSF74FF)
 
 ##### 연락
-> E-mail : lllee.dh@gmail.com
-> Linked-In :
+> E-mail : lllee.dh@gmail.com<br>
+> Linked-In : [LinkedIn](https://linkedin.com/in/dong-hyeong-lee-919009173)
