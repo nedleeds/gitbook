@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 * [About Me](README.md)
-=======
-* [about Me](README.md)
->>>>>>> 1b98345be011f6306bf9ba587e9dc8f588d1a3f5
 * ALGORITHM
   * Programmers
     * [1. empty](algorithm/programmers)
