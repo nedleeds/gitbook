@@ -4,12 +4,11 @@ description: 'If you do nothing, never be changed.'
 
 # About Me
 
-<img src="/image/emoji.png" width="5%" height="5%">
-
+![](https://github.com/nedleeds/gitbook/tree/d52027526db730f0c02ebab72f5963914e2a4639/image/emoji.png)
 
 ## 학력
 
-> 부산대학교 전자공학과 졸업 \(2019.08\)   
+> 부산대학교 전자공학과 졸업 \(2019.08\)  
 > 임베디드 SW 설계 연계전공
 
 ## 자격증
@@ -19,4 +18,5 @@ description: 'If you do nothing, never be changed.'
 ## 연락
 
 > E-mail : lllee.dh@gmail.com  
->  Linked-In : [LinkedIn](https://linkedin.com/in/dong-hyeong-lee-919009173)
+> Linked-In : [LinkedIn](https://linkedin.com/in/dong-hyeong-lee-919009173)
+
