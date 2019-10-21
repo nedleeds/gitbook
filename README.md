@@ -1,7 +1,7 @@
 ---
 description: " If you do nothing, never be changed. "
 ---
-<img src="/image/mypicture.jpg" width="5%" height="5%">
+<img src="/image/mypicture.jpg" width="1%" height="1%">
 ##### 학력
 >  부산대학교 전자공학과 졸업 (2019.08)
 ><br>임베디드 SW 설계 연계전공
