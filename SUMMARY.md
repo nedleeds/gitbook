@@ -1,7 +1,7 @@
 # Table of contents
 
 * [About Me](README.md)
-* [ALGORITHM](Algorithm/README.md)
+* [Algorithm](Algorithm/README.md)
   * [Programmers](Algorithm/programmers/README.md)
     * [1.empty](Algorithm/programmers/1_empty.md)
   * [Samsung SW Academy](Algorithm/samsung-sw-academy/README.md)
