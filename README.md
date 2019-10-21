@@ -3,7 +3,7 @@ description: 'If you do nothing, never be changed.'
 ---
 
 # About Me
-<img src="./image/emoji.jpg" width="10%" height="10%">
+<img src="./image/emoji.jpg" width="100" height="100">
 
 ## 학력
 
