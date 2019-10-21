@@ -3,7 +3,7 @@
 * [About Me](README.md)
 * [ALGORITHM](algorithm/README.md)
   * [Programmers](algorithm/programmers/README.md)
-    * [1. empty](algorithm/programmers/1.-empty.md)
+    * [1.empty](algorithm/programmers/1.empty.md)
   * [Samsung SW Academy](algorithm/samsung-sw-academy/README.md)
     * [1.전기버스](algorithm/samsung-sw-academy/1..md)
     * [2.숫자카드](algorithm/samsung-sw-academy/2..md)
@@ -25,4 +25,3 @@
     * [1.empty](language/c/1.empty.md)
   * [C++](language/c++/README.md)
     * [1.empty](language/c++/1.empty.md)
-
