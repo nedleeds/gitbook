@@ -5,7 +5,7 @@
   * [Programmers](algorithm/programmers/README.md)
     * [1.empty](algorithm/programmers/1_empty.md)
   * [Samsung SW Academy](algorithm/samsung-sw-academy/README.md)
-    * [1.전기버스](algorithm/samsung-sw-academy/1_electric_bus.md)
+    * [1.전기버스](algorithm\samsung-sw-academy\1_electric_bus.md)
     * [2.숫자카드](algorithm/samsung-sw-academy/2_num_card.md)
 * [ML/DL](ml-dl/README.md)
   * [COURSERA](ml-dl/coursera/README.md)
