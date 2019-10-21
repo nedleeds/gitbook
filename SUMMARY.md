@@ -10,9 +10,9 @@
 * ML/DL
   * COURSERA
     * DeeplearningAi Learning
-      * [1.empty](ml-dl/COURSERA/DeeplearningAi)
+      * [1.empty](ml-dl/coursera/DeeplearningAi)
     * Machine Learning
-      * [1.empty](ml-dl/COURSERA/Machine Learning)
+      * [1.empty](ml-dl/coursera/Machine Learning)
   * RESEARCH PAPER
     * [Study Note](research-paper/study-note.md)
 * Data Structure
