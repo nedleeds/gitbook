@@ -4,7 +4,7 @@ description: 'If you do nothing, never be changed.'
 
 # About Me
 
-![](.gitbook/assets/mypicture.jpg)
+![](.gitbook/assets/mypicture.jpg){: width="1%" height="1%"}
 
 ## 학력
 
