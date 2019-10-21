@@ -1,10 +1,10 @@
 # Table of contents
 
 * [About Me](README.md)
-* [ALGORITHM](algorithm/README.md)
-  * [Programmers](algorithm/programmers/README.md)
-    * [1.empty](algorithm/programmers/1_empty.md)
-  * [Samsung SW Academy](algorithm/samsung-sw-academy/README.md)
+* [ALGORITHM](Algorithm/README.md)
+  * [Programmers](Algorithm/programmers/README.md)
+    * [1.empty](Algorithm/programmers/1_empty.md)
+  * [Samsung SW Academy](Algorithm/samsung-sw-academy/README.md)
     * [1.전기버스](Algorithm/samsung-sw-academy/1_electric_bus.md)
     * [2.숫자카드](Algorithm/samsung-sw-academy/2_num_card.md)
 * [ML/DL](ml-dl/README.md)
