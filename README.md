@@ -1,5 +1,5 @@
 ---
-description: 'If you do nothing, never be changed.'
+description: Lee Dong Hyeong
 ---
 
 # About Me
