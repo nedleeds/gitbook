@@ -3,7 +3,8 @@ description: 'If you do nothing, never be changed.'
 ---
 
 # About Me
-<img src="./image/emoji.jpg" width="100" height="100">
+
+![](.gitbook/assets/emoji%20%281%29.jpg)
 
 ## 학력
 
@@ -18,3 +19,4 @@ description: 'If you do nothing, never be changed.'
 
 > E-mail : lllee.dh@gmail.com  
 > Linked-In : [LinkedIn](https://linkedin.com/in/dong-hyeong-lee-919009173)
+
