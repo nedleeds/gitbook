@@ -3,7 +3,7 @@
 * [About Me](README.md)
 * [Algorithm](algorithm/README.md)
   * [SW Academy](algorithm/samsung-sw-academy/README.md)
-    * [Untitled](algorithm/samsung-sw-academy/untitled-1.md)
+    * [13.  그래프 경로](algorithm/samsung-sw-academy/untitled-1.md)
     * [12. 괄호검사](algorithm/samsung-sw-academy/12..md)
     * [11. 종이 붙이기](algorithm/samsung-sw-academy/11..md)
     * [10. 글자수](algorithm/samsung-sw-academy/10..md)
