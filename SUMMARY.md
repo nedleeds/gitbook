@@ -7,6 +7,7 @@
     * [2.숫자카드](algorithm/samsung-sw-academy/2_num_card.md)
     * [3. 구간 합](algorithm/samsung-sw-academy/3..md)
     * [4. 색칠하기](algorithm/samsung-sw-academy/4..md)
+    * [5. 부분집합의 합](algorithm/samsung-sw-academy/5..md)
 * [ML/DL](ml-dl/README.md)
   * [COURSERA](ml-dl/coursera/README.md)
     * [DeeplearningAi Learning](ml-dl/coursera/deeplearningai-learning/README.md)
