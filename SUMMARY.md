@@ -17,7 +17,6 @@
     * [3. 구간 합](algorithm/samsung-sw-academy/3..md)
     * [2. 숫자카드](algorithm/samsung-sw-academy/2_num_card.md)
     * [1. 전기버스](algorithm/samsung-sw-academy/1_electric_bus.md)
-* [Untitled](untitled.md)
 * [ML/DL](ml-dl/README.md)
   * [COURSERA](ml-dl/coursera/README.md)
     * [DeeplearningAi Learning](ml-dl/coursera/deeplearningai-learning/README.md)
