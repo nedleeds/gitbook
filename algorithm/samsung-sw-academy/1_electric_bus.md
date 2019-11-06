@@ -2,7 +2,7 @@
 description: from Samsung SW Expert Academy
 ---
 
-# 1.전기버스
+# 1. 전기버스
 
 ## Problem \)
 
