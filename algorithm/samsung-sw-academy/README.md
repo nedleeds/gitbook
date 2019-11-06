@@ -1,2 +1,2 @@
-# SW Academy
+# Samsung SW Academy
 
