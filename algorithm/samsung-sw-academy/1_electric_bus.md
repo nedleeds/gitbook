@@ -46,7 +46,7 @@ description: from Samsung SW Expert Academy
 > --------------------------------------------------------
 > ```
 
-### \[ 풀이 \]
+### \[ 코드 \]
 
 {% tabs %}
 {% tab title="문제해석" %}
