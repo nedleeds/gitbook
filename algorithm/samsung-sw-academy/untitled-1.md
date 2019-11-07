@@ -67,7 +67,7 @@ E개의 줄 이후에는 경로의 존재를 확인할 출발 노드 S와 도착
 ```
 
 {% tabs %}
-{% tab title="my Code" %}
+{% tab title="code" %}
 ```python
 def DFS(src, dst, adjList):	
     visited = [src]	                                       # first visited node : 1
@@ -102,7 +102,7 @@ for test_case in range(1, T+1):
 ```
 {% endtab %}
 
-{% tab title="other\'s Code" %}
+{% tab title="other\'s" %}
 ```python
 def DFS(start):    
     global result    
