@@ -17,13 +17,7 @@ description: from Samsung SW Expert Academy
 > 입력 : ​​​​
 >
 > ```python
-> 3
-> 3 10 5
-> 1 3 5 7 9
-> 3 10 5
-> 1 3 7 8 9
-> 5 20 5
-> 4 7 9 14 17
+> 33 10 51 3 5 7 93 10 51 3 7 8 95 20 54 7 9 14 17
 > ```
 >
 > 출력 :
@@ -31,9 +25,7 @@ description: from Samsung SW Expert Academy
 > \#'노선번호' '최소충전 횟수 or 0\(=종점까지 도달 못할 시\)'
 >
 > ```python
-> #1 3
-> #2 0
-> #3 4
+> #1 3#2 0#3 4
 > ```
 >
 > sol :
@@ -52,13 +44,7 @@ description: from Samsung SW Expert Academy
 >    \[조건\]
 >
 >    ```python
->    if leftOil>=nxt[idx]: # 남은 기름 >= 다음 충전소까지 거리
->        pass              # 기름이 있으므로 pass
->    elif nxt[idx]>k:      # 이동할 거리 > 최대 이동가능 거리
->        return 0          # stop 해야돼
->    else:
->        charge += 1       # 충전횟수 += 1
->        leftOil = k       # 기름을 가득 채움
+>    if leftOil>=nxt[idx]: # 남은 기름 >= 다음 충전소까지 거리    pass              # 기름이 있으므로 passelif nxt[idx]>k:      # 이동할 거리 > 최대 이동가능 거리    return 0          # stop 해야돼else:    charge += 1       # 충전횟수 += 1    leftOil = k       # 기름을 가득 채움
 >    ```
 >
 >    * \) 구현에 사용할 자료구조 :
@@ -72,66 +58,13 @@ description: from Samsung SW Expert Academy
 
 {% tab title="틀" %}
 ```python
-#==============[ getDist ]===============
-argument : mList, n
-return prv, nxt
-#========================================
-
-#==============[ oilStatus ]===============
-argument : mList, prv, nxt, k, n
-return minChargeNum
-#========================================
-
-#==============[ getDist ]===============
-prv, nxt = getDist(mList, n)
-answer = oilStatus(mList, prv, nxt, k, n)
-return answer
-#========================================
+#==============[ getDist ]===============argument : mList, nreturn prv, nxt#========================================#==============[ oilStatus ]===============argument : mList, prv, nxt, k, nreturn minChargeNum#========================================#==============[ getDist ]===============prv, nxt = getDist(mList, n)answer = oilStatus(mList, prv, nxt, k, n)return answer#========================================
 ```
 {% endtab %}
 
 {% tab title="CODE" %}
 ```python
-def getDist(l, n):
-    prv = []
-    nxt = []
-    p = 0
-    for i in l:
-        prv.append(i-p)
-        p=i
-    nlist = l[1:]
-    nlist.append(n)
-    p=l[0]
-    for j in nlist:
-        nxt.append(j-p)
-        p=j
-    return prv, nxt
-
-def oilCheck(mList, prv, nxt, k):
-    leftOil = k
-    charge = 0
-    for idx in range(0, len(mList)):
-        leftOil-=prv[idx]
-        if(leftOil>=nxt[idx]):
-            pass
-        elif(nxt[idx]>k):
-            return 0
-        else:
-            #print("oil: {0} able:{1}".format(leftOil, leftOil-nxt[idx]))
-            charge+=1
-            leftOil = k
-    return charge
-
-T = int(input())
-# 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
-for test_case in range(1, T + 1):
-    k,n,m = map(int, input().split())
-    mList = list(map(int, input().split()))
-    num = 0
-
-    prv, nxt = getDist(mList,n)
-    num = oilCheck(mList, prv, nxt, k)
-    print("#%d %d" %(test_case, num))
+def getDist(l, n):    prv = []    nxt = []    p = 0    for i in l:        prv.append(i-p)        p=i    nlist = l[1:]    nlist.append(n)    p=l[0]    for j in nlist:        nxt.append(j-p)        p=j    return prv, nxtdef oilCheck(mList, prv, nxt, k):    leftOil = k    charge = 0    for idx in range(0, len(mList)):        leftOil-=prv[idx]        if(leftOil>=nxt[idx]):            pass        elif(nxt[idx]>k):            return 0        else:            #print("oil: {0} able:{1}".format(leftOil, leftOil-nxt[idx]))            charge+=1            leftOil = k    return chargeT = int(input())# 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.for test_case in range(1, T + 1):    k,n,m = map(int, input().split())    mList = list(map(int, input().split()))    num = 0    prv, nxt = getDist(mList,n)    num = oilCheck(mList, prv, nxt, k)    print("#%d %d" %(test_case, num))
 ```
 {% endtab %}
 {% endtabs %}

@@ -48,54 +48,7 @@
 </table>{% tabs %}
 {% tab title="myCode" %}
 ```python
-def prevSearch(numbers, now):
-	numSame = []
-	cnt=0
-	idx = []
-	for i in range(0, len(numbers)):
-		if now == numbers[i]:
-			if i==0: # 첫번째 카드면 어차피 같으니깐 패스.
-				pass
-			else:	# 두번째 카드부터 같으면 cnt + 1
-				cnt+=1
-				idx.append(i)
-		else:		# 카드가 다르면 횟수 세지 않음.
-			pass
-	return cnt, idx
-
-def findBiggest(table, numbers):
-	M = max(table) 							 # table은 각 카드별로 나온 횟수가 중첩된 값들이다. 여기서 제일 큰값이 바로 가장많은 카드수가 된다.
-	cnt, idx = prevSearch(table,M)   # M과 비교해서 table에 또 다른 같은수의 최대양이 있는 지 비교한다. 반환 => cnt, index
-	pos = 0
-	pos = max(idx) 					     	 # 결론 : max(idx)를 하면 최대값을 int형으로 반환하기 때문에 pos = max(idx) 를 하면된다.
-	num = numbers[pos]
-	amount = M
-	return num, amount 
-  
-def search(numbers, numCard):
-	table = []
-	for idx in range(0, numCard):
-		now = numbers[idx]
-		cnt = 1
-		numSame, _ = prevSearch(numbers[:idx], now)
-		if numSame == 0:
-			pass
-		else:
-			cnt += numSame
-		table.append(cnt)    
-	num, amount = findBiggest(table, numbers)
-	return num, amount 
-
-T = int(input())
-for test_case in range(1, T + 1):
-	numCard = int(input())
-	numbers = list(map(int, input()))
-	numbers.sort()
-	num, amount = search(numbers, numCard)
-	print("#{} {} {}".format(test_case, num, amount))
-
-
-
+def prevSearch(numbers, now):	numSame = []	cnt=0	idx = []	for i in range(0, len(numbers)):		if now == numbers[i]:			if i==0: # 첫번째 카드면 어차피 같으니깐 패스.				pass			else:	# 두번째 카드부터 같으면 cnt + 1				cnt+=1				idx.append(i)		else:		# 카드가 다르면 횟수 세지 않음.			pass	return cnt, idxdef findBiggest(table, numbers):	M = max(table) 							 # table은 각 카드별로 나온 횟수가 중첩된 값들이다. 여기서 제일 큰값이 바로 가장많은 카드수가 된다.	cnt, idx = prevSearch(table,M)   # M과 비교해서 table에 또 다른 같은수의 최대양이 있는 지 비교한다. 반환 => cnt, index	pos = 0	pos = max(idx) 					     	 # 결론 : max(idx)를 하면 최대값을 int형으로 반환하기 때문에 pos = max(idx) 를 하면된다.	num = numbers[pos]	amount = M	return num, amount   def search(numbers, numCard):	table = []	for idx in range(0, numCard):		now = numbers[idx]		cnt = 1		numSame, _ = prevSearch(numbers[:idx], now)		if numSame == 0:			pass		else:			cnt += numSame		table.append(cnt)    	num, amount = findBiggest(table, numbers)	return num, amount T = int(input())for test_case in range(1, T + 1):	numCard = int(input())	numbers = list(map(int, input()))	numbers.sort()	num, amount = search(numbers, numCard)	print("#{} {} {}".format(test_case, num, amount))
 ```
 {% endtab %}
 
