@@ -4,7 +4,9 @@ description: from Samsung SW Expert Academy
 
 # 1. 전기버스
 
-## Problem \)
+## 
+
+### \[ 문제 \]
 
 > 버스는 0번에서 출발해 종점인 N번 정류장까지 이동하고, 한번 충전으로 최대한 이동할 수 있는 정류장 수 K가 정해져 있다.
 >
