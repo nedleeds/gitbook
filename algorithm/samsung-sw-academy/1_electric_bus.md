@@ -82,13 +82,60 @@ description: from Samsung SW Expert Academy
 
 {% tab title="틀" %}
 ```python
-#==============[ getDist ]===============argument : mList, nreturn prv, nxt#========================================#==============[ oilStatus ]===============argument : mList, prv, nxt, k, nreturn minChargeNum#========================================#==============[ getDist ]===============prv, nxt = getDist(mList, n)answer = oilStatus(mList, prv, nxt, k, n)return answer#========================================
+#==============[ getDist ]===============
+argument : mList, nreturn prv, nxt
+#========================================
+
+
+#==============[ oilStatus ]=============
+argument : mList, prv, nxt, k, nreturn minChargeNum
+#========================================
+
+
+#==============[ getDist ]===============
+prv, nxt = getDist(mList, n)
+answer = oilStatus(mList, prv, nxt, k, n)
+return answer
+#========================================
 ```
 {% endtab %}
 
 {% tab title="CODE" %}
 ```python
-def getDist(l, n):    prv = []    nxt = []    p = 0    for i in l:        prv.append(i-p)        p=i    nlist = l[1:]    nlist.append(n)    p=l[0]    for j in nlist:        nxt.append(j-p)        p=j    return prv, nxtdef oilCheck(mList, prv, nxt, k):    leftOil = k    charge = 0    for idx in range(0, len(mList)):        leftOil-=prv[idx]        if(leftOil>=nxt[idx]):            pass        elif(nxt[idx]>k):            return 0        else:            #print("oil: {0} able:{1}".format(leftOil, leftOil-nxt[idx]))            charge+=1            leftOil = k    return chargeT = int(input())# 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.for test_case in range(1, T + 1):    k,n,m = map(int, input().split())    mList = list(map(int, input().split()))    num = 0    prv, nxt = getDist(mList,n)    num = oilCheck(mList, prv, nxt, k)    print("#%d %d" %(test_case, num))
+def getDist(l, n):
+	prv, nxt, p = [], [], 0
+	for i in l:
+		prv.append(i-p)
+		p=i
+	nlist = l[1:]
+	nlist.append(n)
+	p=l[0]
+	for j in nlist:
+		nxt.append(j-p)
+		p=j
+	return prv, nxt
+
+def oilCheck(mList, prv, nxt, k):
+	leftOil, charge = k, 0
+	for idx in range(0, len(mList)):
+		leftOil-=prv[idx]
+		if(leftOil>=nxt[idx]): pass
+		elif(nxt[idx]>k): 		return 0
+		else:
+			charge+=1
+			leftOil = k
+	return charge
+    
+T = int(input())
+
+for test_case in range(1, T + 1):
+	k,n,m = map(int, input().split())
+	mList = list(map(int, input().split()))
+	num = 0
+
+	prv, nxt = getDist(mList,n)
+	num = oilCheck(mList, prv, nxt, k)
+	print("#%d %d" %(test_case, num))
 ```
 {% endtab %}
 {% endtabs %}
