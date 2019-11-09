@@ -3,6 +3,7 @@
 * [About Me](README.md)
 * [Algorithm](algorithm/README.md)
   * [SW Academy](algorithm/samsung-sw-academy/README.md)
+    * [16. 미로찾기](algorithm/samsung-sw-academy/16..md)
     * [15. forth](algorithm/samsung-sw-academy/15.-forth.md)
     * [14. 반복문자 지우기](algorithm/samsung-sw-academy/14..md)
     * [13.  그래프 경로](algorithm/samsung-sw-academy/untitled-1.md)
