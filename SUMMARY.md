@@ -32,7 +32,7 @@
     * [1.empty](data-structure/list/1_empty.md)
 * [Language](language/README.md)
   * [Python](language/python/README.md)
-    * [1.empty](language/python/1.empty.md)
+    * ['return' vs 'global'](language/python/1.empty.md)
   * [C](language/c/README.md)
     * [1.empty](language/c/1.empty.md)
   * [C++](language/c++/README.md)
